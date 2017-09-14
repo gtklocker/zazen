@@ -1,7 +1,7 @@
 " =============================================================================
 " File:        zazen.vim
 " Description: Vim color scheme file
-" Maintainer:  Zoltan Dezso
+" Maintainer:  Zoltan Dezso, Kostis Karantias
 " =============================================================================
 set background=dark
 highlight clear
@@ -92,8 +92,8 @@ hi qfError          guifg=fg           guibg=#000000   gui=undercurl
 
 " 256-color Terminal support
 if &t_Co > 255
-   hi  Normal             ctermfg=251        ctermbg=0          cterm=NONE
-   hi  CursorLine         ctermfg=NONE       ctermbg=240        cterm=NONE
+   hi  Normal             ctermfg=251        ctermbg=232        cterm=NONE
+   hi  CursorLine         ctermfg=NONE       ctermbg=234        cterm=NONE
    hi  CursorColumn       ctermfg=NONE       ctermbg=234        cterm=NONE
    hi  LineNr             ctermfg=240        ctermbg=NONE       cterm=NONE
    hi  Statement          ctermfg=248        ctermbg=NONE       cterm=bold
@@ -148,7 +148,7 @@ if &t_Co > 255
    hi  SpellCap           ctermbg=0          cterm=NONE
    hi  SpellLocal         ctermbg=0          cterm=NONE
    hi  SpellRare          ctermbg=0          cterm=NONE
-   hi  StatusLine         ctermfg=0          ctermbg=243        cterm=bold
+   hi  StatusLine         ctermfg=246        ctermbg=237        cterm=bold
    hi  StatusLineNC       ctermfg=241        ctermbg=235        cterm=NONE
    hi  TabLine            ctermfg=fg         ctermbg=243        cterm=underline
    hi  TabLineFill        ctermfg=fg         ctermbg=bg         cterm=reverse
